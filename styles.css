@@ -70,3 +70,19 @@ body {
 /* Footer */
 .site-footer { border-top: 1px solid #eee; margin-top: 40px; background: #fafafa; }
 .site-footer .container { padding: 16px; text-align: center; color: var(--muted); }
+
+
+/* Bilder und iframes responsiv */
+img, iframe, video { max-width: 100%; height: auto; }
+
+/* Lange Menüzeilen auf kleinen Bildschirmen umbrechen */
+.site-header .container { flex-wrap: wrap; }
+
+/* Abstand unter den Hauptbereichen */
+main.container { padding: 16px 0; }
+
+/* Calendly-Widget (falls eingebettet) */
+.calendly-inline-widget { width: 100%; min-height: 700px; }
+
+/* Bessere Fokus-Styles für Tastatur-Nutzer (Barrierefreiheit) */
+a:focus
